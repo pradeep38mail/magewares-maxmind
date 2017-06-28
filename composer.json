@@ -1,7 +1,7 @@
 {
   "name": "magewares/maxmind",
   "description": "MaxMind Web Service API",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "homepage": "https://github.com/pradeep38mail/magewares-maxmind",
   "type": "library",
   "license": "Apache-2.0",
