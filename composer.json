@@ -1,0 +1,10 @@
+{
+  "name": "magewares/maxmind",
+  "description": "Magento composer library helps to instantiate Composer application and run composer commands.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Magewares\\Maxmind\\": "src"
+    }
+  }
+}
