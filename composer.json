@@ -1,7 +1,26 @@
 {
   "name": "magewares/maxmind",
-  "description": "Magento composer library helps to instantiate Composer application and run composer commands.",
+  "description": "MaxMind Web Service API",
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/pradeep38mail/magewares-maxmind",
   "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Gregory Oschwald",
+      "email": "goschwald@maxmind.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "composer/ca-bundle": "^1.0.3",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*",
+    "squizlabs/php_codesniffer": "2.*"
+  },
   "autoload": {
     "psr-4": {
       "Magewares\\Maxmind\\": "src"
